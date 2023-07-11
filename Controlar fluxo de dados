@@ -1,0 +1,10 @@
+//Essa variável mantém o controle do status do nível de água: cheio ou vazio.
+String waterLevel = 'full';
+  
+//Uma vez que o bule de chá é preenchido, a variável é alterada para "cheio". (usando uma estrutura "if"):
+if(waterLevel == 'empty') {
+    System.debug('Fill the tea kettle');
+    waterLevel = 'full';
+} else {
+    System.debug('The tea kettle is full');
+}
